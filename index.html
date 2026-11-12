@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Adi Widianto</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Adi Widianto</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#profil">Profil</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <button id="toggle-btn" type="button" role="switch" aria-checked="false">
+                <span>Dark Mode</span>
+                <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+            </button>
+        </div>
+        
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-avatar-wrapper">
+                <img src="assets/img/foto-profil.jpg" alt="Foto Profil Adi Widianto" class="hero-avatar">
+            </div>
+            <div class="hero-text">
+                <span class="badge">Dosen & Academic Researcher</span>
+                <h1>Selamat Datang di Portofolio Saya</h1>
+                <p>Halo! Saya <strong>Adi Widianto</strong>, seorang Dosen yang berfokus pada pengembangan sistem informasi dan penelitian berbasis data untuk memajukan kualitas pendidikan.</p>
+                <div class="hero-buttons">
+                    <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+                    <a href="#project" class="btn btn-outline">Lihat Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profil / Biodata Section -->
+        <section id="profil" class="section">
+            <div class="section-header">
+                <h2>Profil Singkat</h2>
+                <p>Informasi pribadi dan data diri profesional</p>
+            </div>
+            <div class="profile-card">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Nama Lengkap</span>
+                        <span class="info-value">Adi Widianto, S.Kom., M.T.</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Profesi</span>
+                        <span class="info-value">Dosen</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Tempat, Tanggal Lahir</span>
+                        <span class="info-value">Pangkalpinang, 08 September 1998</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email</span>
+                        <span class="info-value"><a href="mailto:adi-widianto@ubb.ac.id">adi-widianto@ubb.ac.id</a></span>
+                    </div>
+                    <div class="info-item full-width">
+                        <span class="info-label">Alamat</span>
+                        <span class="info-value">Cempaka Mas 4 Residence, Jerambah Gantung, Pangkalpinang</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section -->
+        <section id="project" class="section">
+            <div class="section-header">
+                <h2>Project Saya</h2>
+                <p>Kumpulan proyek pengembangan dan penelitian yang telah dikerjakan</p>
+            </div>
+            <div class="projects-grid" id="projects-grid"></div>
+        </section>
+
+        <!-- Social & Contact Section -->
+        <section id="kontak" class="section">
+            <div class="section-header">
+                <h2>Hubungi Saya</h2>
+                <p>Mari terhubung melalui media sosial dan jejaring akademik berikut</p>
+            </div>
+            <div class="social-container">
+                <a href="https://id.linkedin.com/in/adi-widianto-80a5b6142" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <img src="assets/img/logo-linkedin.png" alt="LinkedIn" class="social-icon">
+                    <div class="social-info">
+                        <span class="social-name">LinkedIn</span>
+                        <span class="social-handle">Adi Widianto</span>
+                    </div>
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=TadCq8oAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <img src="assets/img/logo-google-scholar.png" alt="Google Scholar" class="social-icon">
+                    <div class="social-info">
+                        <span class="social-name">Google Scholar</span>
+                        <span class="social-handle">Adi Widianto</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/adi.wdnto/" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <img src="assets/img/logo-instagram.png" alt="Instagram" class="social-icon">
+                    <div class="social-info">
+                        <span class="social-name">Instagram</span>
+                        <span class="social-handle">@adi.wdnto</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Adi Widianto. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
