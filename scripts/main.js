@@ -27,7 +27,7 @@ const projects = [
     title: "Website Indikator Kinerja Utama FEB UBB",
     description:
       "Website ini membantu Fakultas Ekonomi dan Bisnis Universitas Bangka Belitung memantau capaian Indikator Kinerja Utama (IKU). Dashboard menyajikan perbandingan target dan realisasi IKU di tingkat fakultas dan program studi, ringkasan jumlah indikator yang tercapai, serta akses ke laporan dan panduan IKU.",
-    image: "assets/img/iku-feb-ubb-dashboard.png",
+    image: "assets/images/iku-feb-ubb-dashboard.png",
     imageAlt:
       "Dashboard FEB Information System dengan grafik target dan realisasi IKU FEB UBB",
     publicationUrl: null,

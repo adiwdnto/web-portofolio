@@ -98,10 +98,20 @@ a {
 }
 
 .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     font-weight: 700;
     font-size: 1.25rem;
     color: var(--accent-brown);
     letter-spacing: -0.5px;
+}
+
+.site-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
 }
 
 .nav-links {
